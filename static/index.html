@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Voicebot Research</title>
+</head>
+
+<body>
+
+    <h1>Voicebot Research</h1>
+
+    <label for="language">Język początkowy:</label>
+
+    <select id="language">
+        <option value="pl">Polski</option>
+        <option value="en">English</option>
+        <option value="de">Deutsch</option>
+    </select>
+
+    <br><br>
+
+    <button id="startBtn">Start conversation</button>
+    <button id="stopBtn" disabled>End conversation</button>
+
+    <p id="status">Status: rozłączony</p>
+
+    <h2>Transkrypcja</h2>
+    <pre id="transcript"></pre>
+
+    <h2>Podsumowanie</h2>
+    <pre id="summary"></pre>
+
+    <script src="/static/app.js"></script>
+
+</body>
+
+</html>
